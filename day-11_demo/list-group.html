@@ -12,7 +12,7 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-6 mt-2">
                 <h4 class="bg-success p-2">Basic list Group</h4>
                 <!-- use ul and li elements for basic list group -->
                 <ul class="list-group">
@@ -21,7 +21,7 @@
                     <li class="list-group-item">Third Item</li>
                 </ul>
             </div>
-            <div class="col-md-12 mt-2">
+            <div class="col-md-6 mt-2">
                 <h4 class="bg-info p-2">list group linked item</h4>
                 <div class="list-group">
                     <a class="list-group-item list-group-item-action" href="#">First item</a>
@@ -29,13 +29,67 @@
                     <a class="list-group-item list-group-item-action" href="#">Third item</a>
                 </div>
             </div>
-            <div class="col-md-12 mt-2">
+            <div class="col-md-6 mt-2">
                 <h4 class="bg-success p-2">disabled item</h4>
                 <div class="list-group">
                     <a class="list-group-item list-group-item-action" href="#">First item</a>
                     <a class="list-group-item list-group-item-action disabled" href="#">Second item</a>
                     <a class="list-group-item list-group-item-action active" href="#">Third item</a>
                 </div>
+            </div>
+
+            <div class="col-md-6 mt-2">
+                <h4 class="bg-success p-2">flush / remove borders</h4>
+
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">First item</li>
+                    <li class="list-group-item">Second item</li>
+                    <li class="list-group-item">Third item</li>
+
+                </ul>
+            </div>
+
+            <div class="col-md-12 mt-2">
+                <h4 class="bg-success p-2">Horizontal list group </h4>
+
+                <ul class="list-group list-group-horizontal">
+                    <li class="list-group-item">First item</li>
+                    <li class="list-group-item">Second item</li>
+                    <li class="list-group-item">Third item</li>
+                    <li class="list-group-item">Forth item</li>
+                    <li class="list-group-item">Fiith item</li>
+
+                </ul>
+            </div>
+            <div class="col-md-12 mt-2">
+                <h4 class="bg-success p-2">Contextual color with list group </h4>
+
+                <ul class="list-group">
+                    <li class="list-group-item list-group-item-succeess">First item</li>
+                    <li class="list-group-item list-group-item-info">Second item</li>
+                    <li class="list-group-item list-group-item-primary">Third item</li>
+                    <li class="list-group-item list-group-item-danger">Forth item</li>
+                    <li class="list-group-item list-group-item-warning">Fiith item</li>
+                    <li class="list-group-item list-group-item-dark">Fiith item</li>
+
+                </ul>
+            </div>
+
+            <div class="col-md-7 mt-3">
+                <h4 class="bg-success p-2">list group with badge </h4>
+                <ul class="list-group">
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Inbox <span class="badge badge-success badge-pill">12</span></li>
+                     
+                    <li class="list-group-item d-flex justify-content-between align-items-center">Draft <span
+                            class="badge badge-warning badge-pill">1</span></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">Sent <span
+                            class="badge badge-info badge-pill">133</span></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">Outbox <span
+                            class="badge badge-dark badge-pill">45</span></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">Trash <span
+                            class="badge badge-danger badge-pill">2</span></li>
+                </ul>
             </div>
         </div>
     </div>
